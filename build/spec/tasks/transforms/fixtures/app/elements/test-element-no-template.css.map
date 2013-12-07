@@ -1,0 +1,6 @@
+{
+"version": 3,
+"mappings": "AAAA,wBAAyB;EACvB,KAAK,EAAE,IAAI",
+"sources": ["../../../../../../../spec/tasks/transforms/fixtures/app/elements/test-element-no-template.scss"],
+"file": "test-element-no-template.css"
+}

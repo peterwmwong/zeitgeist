@@ -1,0 +1,11 @@
+{
+  "name": "zeitgeist",
+  "version": "0.0.0",
+  "dependencies": {
+    "angular": "1.2.4",
+    "angular-animate": "1.2.4",
+    "angular-mocks": "1.2.4",
+    "angular-resource": "1.2.4",
+    "jasmine": "~1.3.1"
+  }
+}

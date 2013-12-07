@@ -1,0 +1,38 @@
+@font-face {
+  font-family: "Source Sans";
+  font-weight: 300;
+  font-style: normal;
+  src: url("../../../vendor/fonts/source-sans/sourcesanspro-light.eot");
+  src: url("../../../vendor/fonts/source-sans/sourcesanspro-light.eot?#iefix") format("embedded-opentype"), url("../../../vendor/fonts/source-sans/sourcesanspro-light.woff") format("woff"), url("../../../vendor/fonts/source-sans/sourcesanspro-light.ttf") format("truetype"), url("../../../vendor/fonts/source-sans/sourcesanspro-light.svg#Source Sans") format("svg"); }
+@font-face {
+  font-family: "Source Sans";
+  font-weight: 400;
+  font-style: normal;
+  src: url("../../../vendor/fonts/source-sans/sourcesanspro-regular.eot");
+  src: url("../../../vendor/fonts/source-sans/sourcesanspro-regular.eot?#iefix") format("embedded-opentype"), url("../../../vendor/fonts/source-sans/sourcesanspro-regular.woff") format("woff"), url("../../../vendor/fonts/source-sans/sourcesanspro-regular.ttf") format("truetype"), url("../../../vendor/fonts/source-sans/sourcesanspro-regular.svg#Source Sans") format("svg"); }
+@font-face {
+  font-family: "Source Sans";
+  font-weight: 600;
+  font-style: normal;
+  src: url("../../../vendor/fonts/source-sans/sourcesanspro-semibold.eot");
+  src: url("../../../vendor/fonts/source-sans/sourcesanspro-semibold.eot?#iefix") format("embedded-opentype"), url("../../../vendor/fonts/source-sans/sourcesanspro-semibold.woff") format("woff"), url("../../../vendor/fonts/source-sans/sourcesanspro-semibold.ttf") format("truetype"), url("../../../vendor/fonts/source-sans/sourcesanspro-semibold.svg#Source Sans") format("svg"); }
+@font-face {
+  font-family: "SS Standard";
+  font-weight: normal;
+  font-style: normal;
+  src: url("../../../vendor/fonts/ss-standard/ss-standard.eot");
+  src: url("../../../vendor/fonts/ss-standard/ss-standard.eot?#iefix") format("embedded-opentype"), url("../../../vendor/fonts/ss-standard/ss-standard.woff") format("woff"), url("../../../vendor/fonts/ss-standard/ss-standard.ttf") format("truetype"), url("../../../vendor/fonts/ss-standard/ss-standard.svg#SS Standard") format("svg"); }
+@font-face {
+  font-family: "Source Code";
+  font-weight: 400;
+  font-style: normal;
+  src: url("../../../vendor/fonts/source-code/sourcecodepro-regular.eot");
+  src: url("../../../vendor/fonts/source-code/sourcecodepro-regular.eot?#iefix") format("embedded-opentype"), url("../../../vendor/fonts/source-code/sourcecodepro-regular.woff") format("woff"), url("../../../vendor/fonts/source-code/sourcecodepro-regular.ttf") format("truetype"), url("../../../vendor/fonts/source-code/sourcecodepro-regular.svg#Source Code") format("svg"); }
+@font-face {
+  font-family: "Source Code";
+  font-weight: 600;
+  font-style: normal;
+  src: url("../../../vendor/fonts/source-code/sourcecodepro-semibold.eot");
+  src: url("../../../vendor/fonts/source-code/sourcecodepro-semibold.eot?#iefix") format("embedded-opentype"), url("../../../vendor/fonts/source-code/sourcecodepro-semibold.woff") format("woff"), url("../../../vendor/fonts/source-code/sourcecodepro-semibold.ttf") format("truetype"), url("../../../vendor/fonts/source-code/sourcecodepro-semibold.svg#Source Code") format("svg"); }
+
+/*# sourceMappingURL=fonts.css.map */

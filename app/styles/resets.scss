@@ -1,0 +1,76 @@
+@import 'bourbon';
+@import 'colors';
+@import 'constants';
+
+// Resets
+// ------
+
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+
+  color: $color-gray-5;
+  font-family: $font-content;
+  font-size: $base-font-size;
+  font-weight: $t-normal;
+
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+}
+
+* {
+  @include box-sizing(border-box);
+  &:focus {
+    border: none;
+    outline: none;
+  }
+}
+
+ul, li {
+  padding: 0;
+  margin: 0;
+}
+
+li {
+  list-style-type: none;
+}
+
+a, a:hover, a:visited, a:active {
+  color: $centro-blue-dark;
+  text-decoration: none;
+}
+
+a, a:hover, a:visited, a:active {
+  cursor: pointer;
+}
+
+// 1. Avoid the WebKit bug in Android 4.0.* where (2) destroys native `audio` and `video` controls.
+// 2. Correct inability to style clickable `input` types in iOS.
+// 3. Improve usability and consistency of cursor style between image-type `input` and others.
+
+button,
+html input[type="button"], // 1
+input[type="reset"],
+input[type="submit"] {
+  -webkit-appearance: button; // 2
+  cursor: pointer; // 3
+}
+
+button,
+input,
+textarea {
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+}
+
+input, textarea {
+  margin: 0;
+  // @include source-sans-pro-font;
+  line-height: inherit; // TODO: ?
+  font-family: $font-content;
+  font-size: $base-font-size;
+  font-weight: $t-normal;
+  color: $color-gray-5;
+}
+

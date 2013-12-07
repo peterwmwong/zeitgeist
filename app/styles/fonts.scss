@@ -1,0 +1,42 @@
+@import "bourbon";
+
+// Shamelessly stolen from surface... Thanks Billy
+
+// ==========================================================================
+// Fonts
+// ==========================================================================
+
+// TOC:
+
+// [?1] PRIMARY
+// [?2] ICON
+// [?3] ACCENTS
+
+// ==========================================================================
+
+// [?1] PRIMARY
+// The main workhorse typeface (used for headlines and body text) for Insight and Auth.
+
+// Light
+@include font-face("Source Sans", "../../../vendor/fonts/source-sans/sourcesanspro-light", 300, normal);
+
+// Regular
+@include font-face("Source Sans", "../../../vendor/fonts/source-sans/sourcesanspro-regular", 400, normal);
+
+// Semibold
+@include font-face("Source Sans", "../../../vendor/fonts/source-sans/sourcesanspro-semibold", 600, normal);
+
+// [?2] ICON
+// An icon font used for all the iconography throughout Insight and Auth.
+@include font-face("SS Standard", "../../../vendor/fonts/ss-standard/ss-standard", normal, normal);
+
+// [?3] ACCENTS
+
+// Source Code is monospaced typeface used to display campaign IDs.
+// The bold version shows up during searches.
+
+// Regular
+@include font-face("Source Code", "../../../vendor/fonts/source-code/sourcecodepro-regular", 400, normal);
+
+// Semibold
+@include font-face("Source Code", "../../../vendor/fonts/source-code/sourcecodepro-semibold", 600, normal);

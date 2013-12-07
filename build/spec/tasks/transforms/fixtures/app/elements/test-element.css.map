@@ -1,0 +1,6 @@
+{
+"version": 3,
+"mappings": "AAAA,YAAa;EACX,KAAK,EAAE,GAAG",
+"sources": ["../../../../../../../spec/tasks/transforms/fixtures/app/elements/test-element.scss"],
+"file": "test-element.css"
+}
